@@ -61,6 +61,9 @@ dependencies {
     compile 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0'
     compile 'me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0'
 
+    // Firebase
+    compile 'com.google.firebase:firebase-core:10.2.1'
+
     testImplementation 'junit:junit:4.12'
 
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {

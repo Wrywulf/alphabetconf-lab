@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1082539435381",
+    "firebase_url": "https://alphabetconf-lab.firebaseio.com",
+    "project_id": "alphabetconf-lab",
+    "storage_bucket": "alphabetconf-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082539435381:android:436674226c0be473",
+        "android_client_info": {
+          "package_name": "jayway.com.lab.alphabetconfpanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082539435381-6v8uoieucpfltisv8v4nvior9g2i8n6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jayway.com.lab.alphabetconfpanion",
+            "certificate_hash": "0ba6293d591e5e2bb4b8a27283e0281501c5f59f"
+          }
+        },
+        {
+          "client_id": "1082539435381-80s6fs81sjvtlbhtn8esuf2dd2el2gno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwSZdLXh_y_wh9OFZKNL26l-i43vswwfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082539435381-80s6fs81sjvtlbhtn8esuf2dd2el2gno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
