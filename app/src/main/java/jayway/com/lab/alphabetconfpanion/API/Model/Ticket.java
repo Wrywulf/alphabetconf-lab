@@ -1,5 +1,5 @@
 
-package jayway.com.lab.alphabetconfpanion;
+package jayway.com.lab.alphabetconfpanion.API.Model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
