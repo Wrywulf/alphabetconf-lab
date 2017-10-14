@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="jayway.com.lab.alphabetconfpanion.MainViewModel" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:onClick="on3DayAndWorkshopClicked"
+            android:text="3 day ticket + Workshop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on3DayAndHotelClicked"
+            android:padding="16dp"
+            android:text="2 day ticket + Hotel"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on3DayClicked"
+            android:padding="16dp"
+            android:text="3 day ticket"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on2DayClicked"
+            android:padding="16dp"
+            android:text="2 day ticket"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="on1DayClicked"
+            android:padding="16dp"
+            android:text="1 day ticket"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onHalfDayClicked"
+            android:padding="16dp"
+            android:text="Half day ticket"/>
+
+    </LinearLayout>
+
+</layout>
